@@ -5,108 +5,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Azure Textures - Download</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            background: #f5f5f5;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #000;
+            background: #fff;
+            margin: 0;
             padding: 20px;
         }
-        .container {
-            background: #fff;
-            border-radius: 12px;
-            box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-            max-width: 520px;
-            width: 100%;
-            overflow: hidden;
-        }
-        .header {
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            padding: 32px 36px;
-            color: #fff;
-        }
-        .header h1 {
-            font-size: 1.6rem;
-            font-weight: 700;
+        h1 {
+            font-size: 20px;
+            font-weight: bold;
             margin-bottom: 4px;
         }
-        .header .version {
-            font-size: 0.9rem;
-            color: #a0a0b0;
-        }
-        .body {
-            padding: 32px 36px;
-        }
-        .desc {
-            font-size: 0.95rem;
-            line-height: 1.6;
-            color: #555;
-            margin-bottom: 24px;
-        }
-        .download-btn {
-            display: inline-block;
-            background: #2563eb;
-            color: #fff;
-            text-decoration: none;
-            font-size: 1.1rem;
-            font-weight: 600;
-            padding: 14px 32px;
-            border-radius: 8px;
-            transition: background 0.2s;
-            width: 100%;
-            text-align: center;
-        }
-        .download-btn:hover {
-            background: #1d4ed8;
-        }
-        .meta {
+        h2 {
+            font-size: 16px;
+            font-weight: bold;
             margin-top: 20px;
-            font-size: 0.82rem;
-            color: #888;
-            line-height: 1.8;
+            margin-bottom: 8px;
         }
-        .meta strong {
-            color: #555;
+        table {
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 6px 12px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background: #f0f0f0;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+        a {
+            color: #0000EE;
+            text-decoration: underline;
+        }
+        a:visited {
+            color: #551A8B;
+        }
+        .note {
+            margin-top: 16px;
+            font-size: 13px;
+            color: #333;
         }
         .footer {
-            padding: 16px 36px;
-            border-top: 1px solid #eee;
-            font-size: 0.78rem;
-            color: #aaa;
-            text-align: center;
+            margin-top: 30px;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+            font-size: 12px;
+            color: #666;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Azure Textures</h1>
-            <span class="version">Version 1.0 &mdash; Minecraft Java Edition</span>
-        </div>
-        <div class="body">
-            <p class="desc">
-                A custom texture pack for Minecraft. Download the zip file below and
-                place it in your <code>resourcepacks</code> folder to use it in-game.
-            </p>
-            <a class="download-btn"
-               href="https://github.com/AzureMC-projects/AzureTextures/releases/download/v1/Azures.textures.zip"
-               download>
-                ⬇ Download Azure Textures (v1)
-            </a>
-            <div class="meta">
-                <strong>File:</strong> Azures.textures.zip<br>
-                <strong>Requires:</strong> Minecraft Java Edition<br>
-                <strong>Source:</strong>
-                <a href="https://github.com/AzureMC-projects/AzureTextures" target="_blank">GitHub Repository</a>
-            </div>
-        </div>
-        <div class="footer">
-            Azure Textures &copy; 2026 &mdash; AzureMC Projects
-        </div>
-    </div>
+
+<h1>Download Azure Textures</h1>
+
+<p>A custom texture pack for Minecraft Java Edition.</p>
+
+<table>
+    <tr>
+        <th>Version</th>
+        <th>Date</th>
+        <th>File</th>
+        <th>Download</th>
+    </tr>
+    <tr>
+        <td>1.0</td>
+        <td>2026-09-19</td>
+        <td>Azures.textures.zip</td>
+        <td><a href="https://github.com/AzureMC-projects/AzureTextures/releases/download/v1/Azures.textures.zip">Download</a></td>
+    </tr>
+</table>
+
+<h2>Installation</h2>
+<p>
+    Extract the zip file and place the folder in your
+    <code>.minecraft/resourcepacks</code> directory.
+    Then select "Azure Textures" in the Minecraft resource pack menu.
+</p>
+
+<h2>Source Code</h2>
+<p>
+    <a href="https://github.com/AzureMC-projects/AzureTextures">GitHub Repository</a>
+</p>
+
+<p class="note">
+    For the complete list of changes, see the
+    <a href="https://github.com/AzureMC-projects/AzureTextures/releases">release notes</a>.
+</p>
+
+<div class="footer">
+    Azure Textures &copy; 2026 &mdash; AzureMC Projects
+</div>
+
 </body>
 </html>   
